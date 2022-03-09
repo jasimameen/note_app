@@ -14,4 +14,5 @@ abstract class IAuthFacade {
   });
 
   Future<Either<AuthFailure, Unit>> signInWithGoogle();
+
 }
